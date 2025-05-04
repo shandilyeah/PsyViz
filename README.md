@@ -27,7 +27,6 @@ This project implements an emotion recognition system using Vision Transformers 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd emotion-recognition-vit
 ```
 
 2. Install dependencies:
