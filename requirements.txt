@@ -1,0 +1,12 @@
+torch
+torchaudio
+librosa
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+audiomentations
+einops
+tensorboard
+soundfile 

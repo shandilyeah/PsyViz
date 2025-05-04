@@ -1,0 +1,20 @@
+On the validation set, the model achieves an overall accuracy of about 71%, 
+which is solid for emotion classification, given the subtle differences between certain emotions. 
+Looking at the per-class performance:
+
+It performs best on ‘angry’, ‘happy’, and ‘neutral’, which have high precision and recall. 
+These emotions tend to have stronger or more distinct cues in the data — 
+for example, angry might have a harsh tone, while happy often has higher energy.
+
+On the other hand, ‘disgust’, ‘fear’, and ‘sad’ are more error-prone. 
+Disgust is often confused with angry or fear, likely because it’s a rare and nuanced emotion 
+that shares some overlapping vocal features.
+
+Fear frequently gets misclassified as sad or happy, which makes sense —
+vocal cues for fear can sound similar to either sadness or nervous laughter. 
+Similarly, sad is often mistaken for neutral or fear, especially when the expression is subtle.
+
+These misclassifications highlight emotional overlap and 
+potentially limited training examples for subtle emotions like fear and disgust. 
+Addressing this might involve targeted data augmentation or better feature extraction 
+for those classes.
